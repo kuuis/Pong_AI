@@ -14,13 +14,7 @@ class GameInformation:
 
 
 class Game:
-    """
-    To use this class simply initialize and instance and call the .loop() method
-    inside of a pygame event loop (i.e while loop). Inside of your event loop
-    you can call the .draw() and .move_paddle() methods according to your use case.
-    Use the information returned from .loop() to determine when to end the game by calling
-    .reset().
-    """
+    
     SCORE_FONT = pygame.font.SysFont("comicsans", 50)
     WHITE = (255, 255, 255)
     BLACK = (0, 0, 0)
